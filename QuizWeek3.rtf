@@ -1,0 +1,143 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\
+\
+\pard\pardeftab720\sl560\sa321\partightenfactor0
+
+\b\fs48 \cf2 Module 3 Quiz\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\b0\fs24 \cf2 Quiz, 5 questions\
+\
+\
+\
+\
+\
+Question 1\
+1\
+point\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 1.\'a0Question 1\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b0\fs24 \cf2 Select all correct statements:\
+
+\b 1x 
+\b0 Deep Neural Networks are obtained when there are more than two hidden layers.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf3 \outl0\strokewidth0 1x 
+\b0 \cf2 \outl0\strokewidth0 \strokec2 Logistic regression can be viewed as a Neural Network with just one sigmoid neuron.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 A Deep Linear Regression can be obtained if we put \'93linear neurons\'94 in a hierarchical structure with at least three hidden layers.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf3 \outl0\strokewidth0 1x 
+\b0 \cf2 \outl0\strokewidth0 \strokec2 Linear Regression can be viewed as a Neural Network with just one \'93linear neuron\'94 (a node with a linear activation function).\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 Question 2\
+1\
+point\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 2.\'a0Question 2\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b0\fs24 \cf2 Select all correct statements:\
+
+\b 1x
+\b0  Gradient Descent has one free parameter called the learning rate.\
+Gradient Descent always leads to a unique solution starting from any initial point, no matter what the objective function is. \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf3 \outl0\strokewidth0 1x
+\b0 \cf3  \cf2 \outl0\strokewidth0 \strokec2 Making the learning rate variable (larger initially in the training, and smaller as the training progresses) may accelerate ML algorithms.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 The fastest way to find the optimal learning rate for a ML algorithm is to simply add it as one more model parameter and optimize over it, along with other model parameters, in the process of minimization of the train error.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf3 \outl0\strokewidth0 1x
+\b0 \cf3  \cf2 \outl0\strokewidth0 \strokec2 A good choice of the learning rate is important: if the learning rate is too small, it takes long for the algorithm to converge, but it if it too high, the algorithm may diverge.\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 Question 3\
+1\
+point\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 3.\'a0Question 3\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b0\fs24 \cf2 Select all correct statements:\
+The on-line SGD typically converges much faster than the mini-batch SGD, because in this case there is only one term to evaluate in the loss function.\
+Stochastic Gradient Descent is a practical version of Gradient Descent, named so in recognition of the fact that numerical algorithms often have some numerical noise due to round-up errors etc., so that outputs of Gradient Descent would always be somewhat random. \
+
+\b 1x 
+\b0 Stochastic Gradient Descent attempts at a direct minimization of the generalization error, by producing samples from a data generating distribution in the form of mini-batches. \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 Question 4\
+1\
+point\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 4.\'a0Question 4\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b0\fs24 \cf2 In the last relation in the video on DataFlow and TensorFlow, what is the origin of the factor 2?\
+Select all correct answers:\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf3 \outl0\strokewidth0 1x 
+\b0 \cf2 \outl0\strokewidth0 \strokec2 It arises because node n4 multiplies x by itself. Differentiation with respect to the first x gives the second x , but we can also differentiate the second x , which will produce the first x .\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 It arises because our graph contains exactly two hierarchical levels not counting the last output level. By convention, all derivatives in TensorFlow are multiplied by the depth of the tree, so that this parameter would be easy to extract from the final result.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf3 \outl0\strokewidth0 1x 
+\b0 \cf2 \outl0\strokewidth0 \strokec2 This is because the derivative by x of x squared equals 2x.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 The factor 2 arises because there are two variables in the problem, x and y.\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 Question 5\
+1\
+point\
+\pard\pardeftab720\sl440\sa298\partightenfactor0
+
+\b\fs36 \cf2 5.\'a0Question 5\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b0\fs24 \cf2 Select all correct statements:\
+As backpropagation is a recursive algorithm, it automatically finds a global minimum of a train error, and escapes any potential local minima. \
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\b \cf3 \outl0\strokewidth0 1x 
+\b0 \cf2 \outl0\strokewidth0 \strokec2 The Backpropagation algorithm for Neural Networks amounts to Gradient Descent applied to a train error, with a reverse-mode autodiff for a recursive calculation of all derivatives.\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+\cf2 The Backpropagation algorithm recursively computes first and second derivatives of a train error with respect to all weights of a Neural Network.\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 I, 
+\b Jose Augusto Carvalho Filho
+\b0 , understand that submitting work that isn\'92t my own may result in permanent failure of this course or deactivation of my Coursera account.\'a0\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
